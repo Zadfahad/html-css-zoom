@@ -23,9 +23,17 @@ main {
 .users {
   width: 200px;
   height: 150px;
+  display: flex;
+  margin: 0.5rem 0.3rem;
   background-image: url(https://picsum.photos/246/146);
   background-size: cover;
   border: 1px solid red;
+}
+.name {
+  align-self: flex-end;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  font-size: 0.8rem;
 }
 footer {
 }
